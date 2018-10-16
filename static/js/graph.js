@@ -220,7 +220,7 @@ function show_rank_distribution(ndx) {
     console.log(profByGender.all());
 
     dc.barChart("#rank-distribution")
-        .width(350)
+        .width(400)
         .height(250)
         .dimension(dim)
         .group(profByGender, "Prof")
